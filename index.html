@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Tata Cube Banner</title>
+    <meta name="author" content="Joy Adhikary">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script type="text/javascript">var clickTag = "https://www.nitoltata-edukan.com/";</script>
+   
+    <style>
+        #adfinixAdLogo {
+        z-index: 99999999;
+        background: #ededed;
+        opacity: 0.8;
+        transition: 0.2s;
+        position: absolute;
+        bottom: 0;
+        display: inline-flex;
+        left: 0;
+        /* top: 235px; */
+        text-decoration: none;
+        padding: 3px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+        align-items: center;
+      }
+    
+      #adfinixAdLogo img {
+        width: 15px;
+        height: 15px;
+      }
+    
+      #adfinixAdLogo span {
+        width: 0px;
+        transition: 0.2s;
+        margin-left: 2px;
+        display: inline-block;
+        font-size: 10px;
+        visibility: hidden;
+      }
+    
+      #adfinixAdLogo:hover {
+        opacity: 1;
+    
+      }
+    
+      #adfinixAdLogo:hover span {
+        width: 35px;
+        visibility: visible;
+      }
+    
+    </style>
+
+    <style>
+        @media (max-width: 299px){
+            body{
+                overflow: hidden;
+                /* width: fit-content; */
+                transform: scale(.9,.9);
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                transform-origin: top left;
+            }
+        }
+
+
+        @media (max-width: 250px){
+            body{
+                overflow: hidden;
+                /* width: fit-content; */
+                transform: scale(.79,.79);
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                transform-origin: top left;
+            }
+        }
+    </style>
+</head>
+<body style="overflow: hidden;">
+    <div id="adArea" class="rct" style="margin: auto;left: 0;right: 0;">
+        <!-- <div id="swipe_icon" onclick="ctaFunction()" class="rct" style="z-index: 9999;transform: scale(.29,.14);top: 90px;"> -->
+
+        <!-- </div> -->
+      
+        
+            <div id="curso" class="mouse ffx zIndex5000">
+                <img src="images/swipe.png" style="width: 60px;">
+            </div>
+         
+       
+        <div class="wrap noEvents zIndex3000">
+            <div id="c1" class="cube">
+                <div class="pic2 rct face ff1"></div>
+             
+                <div class="pic1 rct face ff2 ">
+                    <!-- <div id="box" class="rct face ff2"></div> -->
+                </div>
+                <!-- <div id="box" class="pic5 ffx "> -->
+                    <!-- <div id="box" class="rct face ff2"></div> -->
+                <!-- </div> -->
+                <!-- <div id="box"></div> -->
+           
+                <div class="pic3 rct face ff3"></div>
+                <div class="pic4 rct face ff4"></div>
+             
+            </div>
+        </div>
+        <div class="wrap noEvents zIndex2400">
+            <div id="c2" class="cube">
+                <div id="shadow" class="rct face f7 noVis"></div>
+            </div>
+            
+        </div>
+        <div id="dragArea"  class="rct zIndex5000"></div>
+        
+        <!-- <a id="adfinixAdLogo" href="https://adfinix.com" target="_blank" noreferrer noopener>
+            <img src="https://content.adfinix.com/adfinix-static/20x20px.png" alt="Adfinix logo" />
+            <span>Adfinix</span>
+        </a> -->
+    
+      
+    </div>
+    <script type="text/javascript" src="TweenMax.min.js"></script>
+    <script type="text/javascript" src="Draggable.min.js"></script>
+    <script>
+     
+     function ctaFunction() {
+            window.open(clickTag, "_blank");
+        }
+        var assets_url = "images/";
+        var assets = {
+            init: [{
+                format: "jpeg?v=1.1",
+                type: "class",
+                scale: 1,
+                names: "pic1 pic2 pic3 pic4"
+            },
+            {
+                format: "png",
+                type: "id",
+                scale: 1,
+                names: "shadow"
+            }, ],
+        };
+    </script>
+    <script src="code.min.js?v=1.6"></script>
+   
+</body>
+
+</html>
